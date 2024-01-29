@@ -17,7 +17,7 @@ struct AddStoreView: View {
             Form {
                 Section {
                     TextField("Name", text: $addStoreVM.name)
-                    TextField("Name", text: $addStoreVM.address)
+                    TextField("Endereço", text: $addStoreVM.address)
                     HStack {
                         Spacer()
                         Button("Save") {
